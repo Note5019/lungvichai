@@ -7,10 +7,12 @@
 3. add location of bootstrap both "styles" and "scripts"
 ```
 "styles": [
-              "src/styles.css","node_modules/bootstrap/dist/css/bootstrap.min.css"
+              "src/styles.css",
+              *"node_modules/bootstrap/dist/css/bootstrap.min.css"*
 
             ],
-            "scripts": ["node_modules/jquery/dist/jquery.min.js",
-                       "node_modules/bootstrap/dist/js/bootstrap.min.js"]
-                       ```
+"scripts": [
+            *"node_modules/jquery/dist/jquery.min.js"*,
+            *"node_modules/bootstrap/dist/js/bootstrap.min.js"*]
+```
 [ลิ้ง stackOverflow](https://stackoverflow.com/questions/50290197/how-to-add-bootstrap-in-angular-6-project "link")
