@@ -1,6 +1,6 @@
 # LungVichai 
 #### Start Project Date : 29-1-2019
-
+---
 ### วิธีเพิ่ม bootstrap 
 1. npm install bootstrap@4 jquery --save
 2. go to file "angular.json"
@@ -16,3 +16,6 @@
             "node_modules/bootstrap/dist/js/bootstrap.min.js"]    <<<<< here
 ```
 [ลิ้ง stackOverflow](https://stackoverflow.com/questions/50290197/how-to-add-bootstrap-in-angular-6-project "link")
+
+- เพิ่ม FormModule
+> npm i @angular/forms
