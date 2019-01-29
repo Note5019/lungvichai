@@ -33,6 +33,7 @@ export class YourAppModule {
 }
 ```
 https://ng-bootstrap.github.io/#/getting-started
+
 ---
 ### Other
 - เพิ่ม FormModule
