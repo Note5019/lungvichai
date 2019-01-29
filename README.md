@@ -8,11 +8,11 @@
 ```
 "styles": [
               "src/styles.css",
-              *"node_modules/bootstrap/dist/css/bootstrap.min.css"*
+              "node_modules/bootstrap/dist/css/bootstrap.min.css" <<<<< here
 
             ],
 "scripts": [
-            *"node_modules/jquery/dist/jquery.min.js"*,
-            *"node_modules/bootstrap/dist/js/bootstrap.min.js"*]
+            "node_modules/jquery/dist/jquery.min.js",             <<<<< here
+            "node_modules/bootstrap/dist/js/bootstrap.min.js"]    <<<<< here
 ```
 [ลิ้ง stackOverflow](https://stackoverflow.com/questions/50290197/how-to-add-bootstrap-in-angular-6-project "link")
