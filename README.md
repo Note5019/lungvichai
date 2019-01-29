@@ -16,6 +16,7 @@
             "node_modules/bootstrap/dist/js/bootstrap.min.js"]    <<<<< here
 ```
 [ลิ้ง stackOverflow](https://stackoverflow.com/questions/50290197/how-to-add-bootstrap-in-angular-6-project "link")
-
+---
+### Other
 - เพิ่ม FormModule
 > npm i @angular/forms
