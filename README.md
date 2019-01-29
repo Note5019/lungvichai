@@ -8,14 +8,31 @@
 ```
 "styles": [
               "src/styles.css",
-              "node_modules/bootstrap/dist/css/bootstrap.min.css" <<<<< here
+              "node_modules/bootstrap/dist/css/bootstrap.min.css" <<< here
 
             ],
 "scripts": [
-            "node_modules/jquery/dist/jquery.min.js",             <<<<< here
-            "node_modules/bootstrap/dist/js/bootstrap.min.js"]    <<<<< here
+            "node_modules/jquery/dist/jquery.min.js",             <<< here
+            "node_modules/bootstrap/dist/js/bootstrap.min.js"]    <<< here
 ```
-[ลิ้ง stackOverflow](https://stackoverflow.com/questions/50290197/how-to-add-bootstrap-in-angular-6-project "link")
+https://stackoverflow.com/questions/50290197/how-to-add-bootstrap-in-angular-6-project
+
+---
+### วิธีเพิ่ม ngB
+1. npm install --save @ng-bootstrap/ng-bootstrap
+2. add to app.modules
+```
+import {NgbModule} from '@ng-bootstrap/ng-bootstrap';           <<< here
+
+@NgModule({
+  ...
+  imports: [NgbModule, ...],                                    <<< here
+  ...
+})
+export class YourAppModule {
+}
+```
+https://ng-bootstrap.github.io/#/getting-started
 ---
 ### Other
 - เพิ่ม FormModule
